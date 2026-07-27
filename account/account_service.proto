@@ -31,6 +31,12 @@ service Account {
             body: "*"
         };
     }
+    rpc UpdateUser(UpdateUserRequest) returns (google.protobuf.Empty) {
+        option (google.api.http) = {
+            put: "account/api/v1/users/{user_id}"
+            body: "*"
+        };
+    }
 }
 
 message CreateUserRequest {

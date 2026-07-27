@@ -372,14 +372,16 @@ const file_account_service_proto_rawDesc = "" +
 	"\auser_id\x18\x01 \x01(\x04R\x06userId\"O\n" +
 	"\x11UpdateUserRequest\x12\x17\n" +
 	"\auser_id\x18\x01 \x01(\x04R\x06userId\x12!\n" +
-	"\x04user\x18\x02 \x01(\v2\r.account.UserR\x04user2\xa4\x03\n" +
+	"\x04user\x18\x02 \x01(\v2\r.account.UserR\x04user2\x91\x04\n" +
 	"\aAccount\x12g\n" +
 	"\n" +
 	"CreateUser\x12\x1a.account.CreateUserRequest\x1a\x16.google.protobuf.Empty\"%\x82\xd3\xe4\x93\x02\x1f:\x01*\"\x1aaccount/api/v1/create_user\x12d\n" +
 	"\aGetUser\x12\x17.account.GetUserRequest\x1a\x18.account.GetUserResponse\"&\x82\xd3\xe4\x93\x02 \x12\x1eaccount/api/v1/users/{user_id}\x12]\n" +
 	"\bGetUsers\x12\x18.account.GetUsersRequest\x1a\x19.account.GetUsersResponse\"\x1c\x82\xd3\xe4\x93\x02\x16\x12\x14account/api/v1/users\x12k\n" +
 	"\n" +
-	"DeleteUser\x12\x1a.account.DeleteUserRequest\x1a\x16.google.protobuf.Empty\")\x82\xd3\xe4\x93\x02#:\x01*\x1a\x1eaccount/api/v1/users/{user_id}B3Z1github.com/uncleVich/contracts/account/go;accountb\x06proto3"
+	"DeleteUser\x12\x1a.account.DeleteUserRequest\x1a\x16.google.protobuf.Empty\")\x82\xd3\xe4\x93\x02#:\x01*\x1a\x1eaccount/api/v1/users/{user_id}\x12k\n" +
+	"\n" +
+	"UpdateUser\x12\x1a.account.UpdateUserRequest\x1a\x16.google.protobuf.Empty\")\x82\xd3\xe4\x93\x02#:\x01*\x1a\x1eaccount/api/v1/users/{user_id}B3Z1github.com/uncleVich/contracts/account/go;accountb\x06proto3"
 
 var (
 	file_account_service_proto_rawDescOnce sync.Once
@@ -418,12 +420,14 @@ var file_account_service_proto_depIdxs = []int32{
 	1,  // 7: account.Account.GetUser:input_type -> account.GetUserRequest
 	2,  // 8: account.Account.GetUsers:input_type -> account.GetUsersRequest
 	5,  // 9: account.Account.DeleteUser:input_type -> account.DeleteUserRequest
-	10, // 10: account.Account.CreateUser:output_type -> google.protobuf.Empty
-	3,  // 11: account.Account.GetUser:output_type -> account.GetUserResponse
-	4,  // 12: account.Account.GetUsers:output_type -> account.GetUsersResponse
-	10, // 13: account.Account.DeleteUser:output_type -> google.protobuf.Empty
-	10, // [10:14] is the sub-list for method output_type
-	6,  // [6:10] is the sub-list for method input_type
+	6,  // 10: account.Account.UpdateUser:input_type -> account.UpdateUserRequest
+	10, // 11: account.Account.CreateUser:output_type -> google.protobuf.Empty
+	3,  // 12: account.Account.GetUser:output_type -> account.GetUserResponse
+	4,  // 13: account.Account.GetUsers:output_type -> account.GetUsersResponse
+	10, // 14: account.Account.DeleteUser:output_type -> google.protobuf.Empty
+	10, // 15: account.Account.UpdateUser:output_type -> google.protobuf.Empty
+	11, // [11:16] is the sub-list for method output_type
+	6,  // [6:11] is the sub-list for method input_type
 	6,  // [6:6] is the sub-list for extension type_name
 	6,  // [6:6] is the sub-list for extension extendee
 	0,  // [0:6] is the sub-list for field type_name
