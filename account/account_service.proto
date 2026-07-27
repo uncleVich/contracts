@@ -38,22 +38,28 @@ message CreateUserRequest {
 }
 
 message GetUserRequest {
-    unit64 user_id = 1;
+    uint64 user_id = 1;
+}
+
+message GetUsersRequest {
+    pagination.Pagination pagination = 1;
 }
 
 message GetUserResponse {
     User user = 1;
 }
 
-message GetUsersRequest {
+message GetUsersResponse {
+    repeated User users = 1;
     pagination.Pagination pagination = 2;
 }
 
+
 message DeleteUserRequest {
-    unit64 user_id = 1;
+    uint64 user_id = 1;
 }
 
 message UpdateUserRequest {
-    unit64 user_id = 1;
+    uint64 user_id = 1;
     User user = 2;
 }
