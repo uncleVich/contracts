@@ -7,7 +7,7 @@
 package account
 
 import (
-	_go "github.com./yuliaapopova/contracts/pagination/go"
+	_go "github.com./uncleVich/contracts/pagination/go"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
@@ -379,7 +379,7 @@ const file_account_service_proto_rawDesc = "" +
 	"\aGetUser\x12\x17.account.GetUserRequest\x1a\x18.account.GetUserResponse\"&\x82\xd3\xe4\x93\x02 \x12\x1eaccount/api/v1/users/{user_id}\x12]\n" +
 	"\bGetUsers\x12\x18.account.GetUsersRequest\x1a\x19.account.GetUsersResponse\"\x1c\x82\xd3\xe4\x93\x02\x16\x12\x14account/api/v1/users\x12k\n" +
 	"\n" +
-	"DeleteUser\x12\x1a.account.DeleteUserRequest\x1a\x16.google.protobuf.Empty\")\x82\xd3\xe4\x93\x02#:\x01*\x1a\x1eaccount/api/v1/users/{user_id}B7Z5github.com./yuliaapopova/contracts/account/go;accountb\x06proto3"
+	"DeleteUser\x12\x1a.account.DeleteUserRequest\x1a\x16.google.protobuf.Empty\")\x82\xd3\xe4\x93\x02#:\x01*\x1a\x1eaccount/api/v1/users/{user_id}B4Z2github.com./uncleVich/contracts/account/go;accountb\x06proto3"
 
 var (
 	file_account_service_proto_rawDescOnce sync.Once

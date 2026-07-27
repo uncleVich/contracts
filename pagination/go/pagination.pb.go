@@ -82,7 +82,7 @@ const file_pagination_proto_rawDesc = "" +
 	"\n" +
 	"Pagination\x12\x16\n" +
 	"\x06offset\x18\x01 \x01(\rR\x06offset\x12\x14\n" +
-	"\x05limit\x18\x02 \x01(\rR\x05limitB=Z;github.com./yuliaapopova/contracts/pagination/go;paginationb\x06proto3"
+	"\x05limit\x18\x02 \x01(\rR\x05limitB:Z8github.com./uncleVich/contracts/pagination/go;paginationb\x06proto3"
 
 var (
 	file_pagination_proto_rawDescOnce sync.Once
