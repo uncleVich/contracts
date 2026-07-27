@@ -372,14 +372,14 @@ const file_account_service_proto_rawDesc = "" +
 	"\auser_id\x18\x01 \x01(\x04R\x06userId\"O\n" +
 	"\x11UpdateUserRequest\x12\x17\n" +
 	"\auser_id\x18\x01 \x01(\x04R\x06userId\x12!\n" +
-	"\x04user\x18\x02 \x01(\v2\r.account.UserR\x04user2\x91\x04\n" +
+	"\x04user\x18\x02 \x01(\v2\r.account.UserR\x04user2\x8e\x04\n" +
 	"\aAccount\x12g\n" +
 	"\n" +
 	"CreateUser\x12\x1a.account.CreateUserRequest\x1a\x16.google.protobuf.Empty\"%\x82\xd3\xe4\x93\x02\x1f:\x01*\"\x1aaccount/api/v1/create_user\x12d\n" +
 	"\aGetUser\x12\x17.account.GetUserRequest\x1a\x18.account.GetUserResponse\"&\x82\xd3\xe4\x93\x02 \x12\x1eaccount/api/v1/users/{user_id}\x12]\n" +
-	"\bGetUsers\x12\x18.account.GetUsersRequest\x1a\x19.account.GetUsersResponse\"\x1c\x82\xd3\xe4\x93\x02\x16\x12\x14account/api/v1/users\x12k\n" +
+	"\bGetUsers\x12\x18.account.GetUsersRequest\x1a\x19.account.GetUsersResponse\"\x1c\x82\xd3\xe4\x93\x02\x16\x12\x14account/api/v1/users\x12h\n" +
 	"\n" +
-	"DeleteUser\x12\x1a.account.DeleteUserRequest\x1a\x16.google.protobuf.Empty\")\x82\xd3\xe4\x93\x02#:\x01*\x1a\x1eaccount/api/v1/users/{user_id}\x12k\n" +
+	"DeleteUser\x12\x1a.account.DeleteUserRequest\x1a\x16.google.protobuf.Empty\"&\x82\xd3\xe4\x93\x02 *\x1eaccount/api/v1/users/{user_id}\x12k\n" +
 	"\n" +
 	"UpdateUser\x12\x1a.account.UpdateUserRequest\x1a\x16.google.protobuf.Empty\")\x82\xd3\xe4\x93\x02#:\x01*\x1a\x1eaccount/api/v1/users/{user_id}B3Z1github.com/uncleVich/contracts/account/go;accountb\x06proto3"
 
